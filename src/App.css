@@ -1,0 +1,43 @@
+h1{
+ text-align: center;
+}
+.namesList{
+  margin-left: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn-check-in,
+  .btn-check-out {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-check-in {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .btn-check-in:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .btn-check-out {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .btn-check-out:hover {
+    background-color: #da190b;
+    transform: scale(1.05);
+  }
+  
