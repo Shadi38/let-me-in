@@ -1,6 +1,9 @@
 h1{
  text-align: center;
 }
+.namesList{
+  margin-left: 20px;
+}
 .buttons {
     display: flex;
     justify-content: center;
